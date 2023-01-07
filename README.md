@@ -1,7 +1,9 @@
 # Seecine
 영화정보통합검색 플러터 앱
 
-1. Places API > [Nearby Search](https://developers.google.com/maps/documentation/places/web-service/search-nearby?authuser=1) (점진적으로 탐색 범위 증가)
+### <SeeCine API 적용 코드 Preview>
+
+#### 1. Places API > [Nearby Search](https://developers.google.com/maps/documentation/places/web-service/search-nearby?authuser=1) (점진적으로 탐색 범위 증가)
 
 ```dart
 void _searchCinema() async {
@@ -92,7 +94,7 @@ void _searchCinema() async {
   }
 ```
 
-2. [Geocoding API](https://developers.google.com/maps/documentation/geocoding?authuser=1) & Places API > [Place Autocomplete](https://developers.google.com/maps/documentation/places/web-service/autocomplete?authuser=1) (장소 검색어 자동완성)
+#### 2. [Geocoding API](https://developers.google.com/maps/documentation/geocoding?authuser=1) & Places API > [Place Autocomplete](https://developers.google.com/maps/documentation/places/web-service/autocomplete?authuser=1) (장소 검색어 자동완성)
 ```dart
 void getSuggestion(String input) async {
     // String type = '(regions)';
@@ -131,7 +133,7 @@ void getSuggestion(String input) async {
   }
 ```
 
-3. [Geocoding API](https://developers.google.com/maps/documentation/geocoding?authuser=1) (특정 장소의 위치 정보 : 위도/경도/장소ID 등) 
+#### 3. [Geocoding API](https://developers.google.com/maps/documentation/geocoding?authuser=1) (특정 장소의 위치 정보 : 위도/경도/장소ID 등) 
 ```dart
 void _getLatLng(
     var cinemaname,
