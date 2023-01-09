@@ -3,6 +3,20 @@
 
 ### <SeeCine API 적용 코드 Preview>
 
+<table>
+<tr>
+<td>
+
+    1. Places API > Nearby Search
+    
+    2. Geocoding API
+    
+    3. Places API > Place Autocomplete
+    
+</td>
+</tr>
+</table>
+
 #### 1. [Places API > Nearby Search](https://developers.google.com/maps/documentation/places/web-service/search-nearby?authuser=1) (점진적으로 탐색 범위 증가)
 
 ```dart
