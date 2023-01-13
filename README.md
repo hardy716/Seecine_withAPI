@@ -1,5 +1,5 @@
-# Seecine POC
-영화정보통합검색 플러터 앱 POC
+# Seecine
+영화정보통합검색 플러터 앱 POC & Mapping Solutions
 
 ### <SeeCine API 적용 코드 Preview>
 
